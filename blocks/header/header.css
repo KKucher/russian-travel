@@ -4,10 +4,11 @@
 
 
 .header {
-    width: 90%;
-    max-width: 1184px;
-    margin: 28px 0 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  font-family: 'Inter', Arial, sans-serif;
+  width: 90%;
+  max-width: 1184px;
+  margin: 28px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

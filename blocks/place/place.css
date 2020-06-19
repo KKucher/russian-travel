@@ -7,8 +7,8 @@
 @import url(./__image/place__image.css);
 
 .place {
+  font-family: 'Inter', Arial, sans-serif;
 	display: grid;
-	grid-template-rows: 1fr 460px;
 	grid-template-columns: 1fr 1fr;
 	grid-row-gap: 60px;
 	grid-column-gap: 40px;
@@ -23,7 +23,7 @@
 	.place {
 		margin-top: 48px;
 		display: flex;
-		flex-direction: column;		
+		flex-direction: column;
 	}
 }
 
@@ -31,7 +31,7 @@
 	.place {
 		grid-template-rows: 56px 1fr;
 		grid-row-gap: 32px;
-		grid-column-gap: 28px;		
+		grid-column-gap: 28px;
 	}
 
 	.place:first-of-type {
@@ -42,6 +42,6 @@
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
 	.place {
 		grid-template-rows: 1fr 440px;
-		grid-column-gap: 32px;		
+		grid-column-gap: 32px;
 	}
 }

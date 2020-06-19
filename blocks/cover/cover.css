@@ -2,10 +2,11 @@
 @import url(./__subtitle/cover__subtitle.css);
 
 .cover {
+  font-family: 'Inter', Arial, sans-serif;
 	display: block;
 	width: 100%;
 	max-width: 1184px;
-	height: 594px;
+	height: 740px;
 	margin: 92px auto 0;
 	text-align: center;
 	display: flex;
@@ -31,7 +32,7 @@
 
 @media screen and (max-width: 374px) {
 	.cover {
-		height: 216px;
+		height: 200px;
 	}
 }
 
@@ -56,12 +57,12 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 	.cover {
-		height: 500px;
+		height: 480px;
 	}
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
 	.cover {
-		height: 562px;
+		height: 640px;
 	}
 }

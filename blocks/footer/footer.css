@@ -1,10 +1,12 @@
-@import url(./__nav/footer__nav.css);
 @import url(./__copyright/footer__copyright.css);
+@import url(./__link-item/footer__link-item.css);
+@import url(./__links/footer__links.css);
 @import url(./__link/footer__link.css);
 
 .footer {
+  font-family: 'Inter', Arial, sans-serif;
 	margin: 92px 0 24px;
-	width: 90%;
+	width: 92.5%;
 	max-width: 1184px;
   display: flex;
   justify-content: space-between;

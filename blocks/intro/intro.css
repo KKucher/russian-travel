@@ -4,6 +4,7 @@
 @import url(./__story/intro__story.css);
 
 .intro {
+  font-family: 'Inter', Arial, sans-serif;
 	margin: 80px auto 0;
 	width: 91.67%;
 }
