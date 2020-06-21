@@ -5,10 +5,34 @@
 
 .header {
   font-family: 'Inter', Arial, sans-serif;
-  width: 90%;
-  max-width: 1184px;
-  margin: 28px 0 0;
+  width: 91.67%;
+  margin: 28px 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+	.header {
+    max-width: calc(100% - 48px*2);
+    margin: 28px 48px 0;
+	}
+}
+
+@media screen and (min-width: 767px) and (max-width: 1279px) {
+	.header {
+		margin: 28px 48px 0;
+	}
+}
+
+@media screen and (max-width: 768px) and (min-width: 319px) {
+	.header {
+    margin: 28px 24px 0;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.header {
+		margin: 16px 16px 0;
+	}
 }

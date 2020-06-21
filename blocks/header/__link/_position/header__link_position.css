@@ -1,0 +1,7 @@
+.header__link_position {
+  margin-right: 18px;
+}
+
+.header__link_position:last-child {
+  margin-right: 0;
+}
