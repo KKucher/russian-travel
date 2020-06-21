@@ -5,7 +5,8 @@
 
 .header {
   font-family: 'Inter', Arial, sans-serif;
-  width: 91.67%;
+  width: 100%;
+  max-width: 1184px;
   margin: 28px 0 auto;
   display: flex;
   justify-content: space-between;
@@ -19,7 +20,7 @@
 	}
 }
 
-@media screen and (min-width: 767px) and (max-width: 1279px) {
+@media screen and (min-width: 769px) and (max-width: 1279px) {
 	.header {
 		margin: 28px 48px 0;
 	}
@@ -28,11 +29,13 @@
 @media screen and (max-width: 768px) and (min-width: 319px) {
 	.header {
     margin: 28px 24px 0;
+    max-width: 720px;
 	}
 }
 
 @media screen and (max-width: 320px) {
 	.header {
-		margin: 16px 16px 0;
+    margin: 16px 16px 0;
+    max-width: 288px;
 	}
 }

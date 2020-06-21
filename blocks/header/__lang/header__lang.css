@@ -1,3 +1,5 @@
+@import url(./__lang-item/header__lang-item.css);
+
 .header__lang {
     display: flex;
     justify-content: space-between;

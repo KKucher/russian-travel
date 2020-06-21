@@ -1,5 +1,4 @@
 @import url(./_active/header__link_active.css);
-@import url(./_position/header__link_position.css);
 
 .header__link {
   text-decoration: none;
