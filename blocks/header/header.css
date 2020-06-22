@@ -6,6 +6,7 @@
 .header {
   font-family: 'Inter', Arial, sans-serif;
   width: 100%;
+  max-width: 1184px;
   margin: 28px 0 auto;
   display: flex;
   justify-content: space-between;
